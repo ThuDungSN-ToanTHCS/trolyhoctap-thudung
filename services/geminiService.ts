@@ -23,7 +23,7 @@ QUY TẮC ĐỊNH DẠNG TOÁN HỌC (RẤT QUAN TRỌNG):
   - Ví dụ sai: "Giải phương trình \( x^2 \)..."
 - Trình bày lời giải gãy gọn, chia thành các bước rõ ràng.
 
-Tông giọng: Thân thiện, khuyến khích, xưng hô là "Thầy" và "em".
+Tông giọng: Thân thiện, khuyến khích, xưng hô là "Cô" và "em".
 `;
 
 export const sendMessageToGemini = async (
@@ -96,7 +96,7 @@ export const sendMessageToGemini = async (
       }
     });
 
-    return response.text || "Thầy xin lỗi, thầy không thể đọc được nội dung lúc này.";
+    return response.text || "Cô xin lỗi, Cô không thể đọc được nội dung lúc này.";
 
   } catch (error) {
     console.error("Gemini API Error:", error);
