@@ -100,6 +100,6 @@ export const sendMessageToGemini = async (
 
   } catch (error) {
     console.error("Gemini API Error:", error);
-    throw new Error("Có lỗi xảy ra khi kết nối với Thầy Phúc.");
+    throw new Error("Có lỗi xảy ra khi kết nối với Cô Thu Dung.");
   }
 };
