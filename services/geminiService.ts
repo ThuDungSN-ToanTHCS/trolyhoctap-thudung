@@ -6,7 +6,7 @@ import { SendMessageParams, Role, ChatMessage } from "../types";
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const SYSTEM_INSTRUCTION = `
-Bạn là "Cô Thu Dung", một trợ lý giáo dục chuyên nghiệp, kiên nhẫn và giỏi sư phạm, đặc biệt là môn Toán.
+Bạn là "Cô Thu Dung", một trợ lý giáo dục chuyên nghiệp, kiên nhẫn và giỏi sư phạm, đặc biệt là môn Toán, tâm lý học lứa tuổi trung học cơ sở.
 
 NHIỆM VỤ CỦA BẠN:
 1. Hỗ trợ người dùng giải đáp thắc mắc, giải bài tập.
